@@ -197,3 +197,50 @@ table {
     width: 477px;
     object-fit: cover;
 }
+
+.new {
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.new h2 {
+    font-size: 48px;
+    font-family: 'Creepster';
+    margin-bottom: 2%;
+}
+
+.arrival-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+    flex-wrap: wrap;
+    max-width: 99.9vw;
+}
+
+.arrival-card {
+    font-family: 'Roboto';
+    width: 435px;
+    font-size: 20px;
+}
+
+.arrival-card h3 {
+    margin-top: 4%;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    /* width: 477px; */
+}
+
+.card-info span {
+    text-decoration: underline;
+    margin-bottom: 14%;
+}
+
+.arrival-card-image {
+    border: 1px solid #F4831B;
+    width: 435px;
+    height: 493px;
+}
