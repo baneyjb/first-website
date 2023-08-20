@@ -489,3 +489,83 @@ footer p {
 .cart-footer {
     margin-top: 5.5%;
 }
+
+.contact-h2 {
+    margin-left: 4%;
+    font-family: 'Creepster';
+    font-size: 32px;
+    margin-top: 2%;
+}
+
+form {
+    width: 492px;
+    height: 598px;
+    border: 1px solid #F4831B;
+    margin: 2% auto;
+}
+
+form span {
+    color: red;
+}
+
+fieldset {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-family: 'Roboto';
+    color: gray;
+}
+
+input {
+    height: 30px;
+    background-color: #F8FAFC;
+    border: .5px solid lightgray;
+    margin-bottom: 16px;
+}
+
+textarea {
+    background-color: #F8FAFC;
+    /* border: 1px darkblue; */
+    border: lightgray;
+    margin-bottom: 16px;
+}
+
+textarea:focus {
+    border: 1px lightgray;
+}
+
+.check {
+    display: flex;
+    /* align-items: center; */
+}
+
+.check input {
+    height: 18px;
+    width: 18px;
+}
+
+.check p {
+    font-family: 'Roboto';
+    color: gray;
+    margin-top: 6px;
+    margin-left: 8px;
+}
+
+form button {
+    height: 40px;
+    margin-top: 16px;
+    background-color: #F4831B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Creepster';
+    font-size: 32px;
+    box-shadow: 0 30px 85px rgba(0,0,0,0.14), 0 15px 35px rgba(0,0,0,0.14);
+}
